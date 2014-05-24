@@ -1,3 +1,13 @@
+local.properties
+.settings/
+.loadpath
+.metadata
+.classpath
+.DS_Store
+.target
+.buildpath
+
+bin/
 *.class
 
 # Mobile Tools for Java (J2ME)
