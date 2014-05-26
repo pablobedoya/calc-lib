@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+.classpath
+.project
+.settings
+     
+=======
+local.properties
+.settings/
+.loadpath
+.metadata
+.classpath
+.DS_Store
+.target
+.buildpath
+
+bin/
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> be04f55b3156980aad78a9af23a559e10b89ebac
