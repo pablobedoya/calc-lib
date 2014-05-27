@@ -8,7 +8,8 @@
 	<packaging>jar</packaging>
 
 	<name>calc-lib</name>
-	<url>ssh://538224e3e0b8cdf1dc00062e@calclib-thiagosena.rhcloud.com/~/git/calclib.git</url>
+	<url>ssh://538224e3e0b8cdf1dc00062e@calclib-thiagosena.rhcloud.com/~/git/calclib.git
+	</url>
 
 
 	<properties>
@@ -35,26 +36,31 @@
 			<version>0.8.2</version>
 			<scope>compile</scope>
 		</dependency>
-		
+
 		<dependency>
-	 		<groupId>javax.servlet</groupId>
+			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
 			<version>2.5</version><!-- change version as needed -->
-			<scope>provided</scope><!-- Mind the scope!-->
+			<scope>provided</scope><!-- Mind the scope! -->
 		</dependency>
 	</dependencies>
 
 	<build>
 		<plugins>
 			<plugin>
-	            <groupId>org.apache.maven.plugins</groupId>
-	            <artifactId>maven-compiler-plugin</artifactId>
-	            <version>2.3.2</version>
-	            <configuration>
-	                <source>1.7</source>
-	                <target>1.7</target>
-	            </configuration>
-	       	</plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>3.1</version>
+			</plugin>
 		</plugins>
 	</build>
 </project>
